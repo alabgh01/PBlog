@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8"/>
+	
+	<title>Contact</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/newf.css"/>
+
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/95241b8f00.js" crossorigin="anonymous"></script>
+
+	<meta name="description" content="LIve TRavel LAugh">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Ghazal Alabtah">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+</head>
+
+<body>
+
+	<header class="articleheader">
+
+		<h1 id="top">LIve TRavel LAugh</h1>
+
+<!--navigation-->
+
+		<ul class="menu">
+			<li><a href="../index.html" target="_self">Home</a></li>
+			<li><a href="about.html" target="_self">About</a></li>
+			<li><a href="contact.html" target="_self">Contact</a></li>
+			<li><a href="gallery.html" target="_self">Gallery</a></li>
+			<li><a href="index.html" target="_self">Blog</a></li>
+		</ul>
+		
+		
+	</header>
+
+	<main class="articlemain">
+
+		<form action="contact.php" method="post">
+
+		<p> Please, fill out the following form to tell us about your experiance in the blog, and I will be happy to contact you back if you have any questions.</p>
+
+		
+			<fieldset>
+				<legend> Contact form </legend>
+				<div class="fo">
+				First Name:
+				<input type="text" name="firstname"/>
+				</div>
+				<div class="fo">
+				Last Name:
+				<input type="text" name="lastname"/>
+				</div>
+				<div class="foc">
+				Which blog article did you like the most?
+				<br/>
+				<input type="checkbox" name="favarticle"/> Arts
+				
+				<input type="checkbox" name="favarticle"/> Food
+				
+				<input type="checkbox" name="favarticle"/> Money
+
+				<input type="checkbox" name="favarticle"/> Water
+
+				<input type="checkbox" name="favarticle"/> Sunsets
+
+				<input type="checkbox" name="favarticle"/> Lights
+				
+				</div>
+				
+				<div class="foc">
+				Are you going to visit my blog againe?
+				<br/>
+				<input type="radio" name="secondvisit"/> Yes
+				
+				<input type="radio" name="secondvisit"/> No
+				</div>
+				<div class="fo">
+				Please leave some comments telling me about your experience.
+				
+				<textarea rows="10" cols="100" id="comments"></textarea>
+				</div>
+				<div class="fo">
+				<input type="submit" value="submit"/>
+
+				</div>
+			</fieldset>
+		</form>
+
+		
+	</main>
+	
+	<div style="clear:both;"></div>
+
+	<footer>
+		<p>
+			<a class="linktop" href="#top">top</a> 
+			Copyright 2020 Live Travel Laugh
+		</p>
+	</footer>
+
+
+</body>
+
+</html>
